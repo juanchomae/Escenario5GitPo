@@ -23,9 +23,11 @@ public class SumaPrimos {
         }
 
         long suma = 0;
+        System.out.println("primos:");
         for (int i = 2; i <= n; i++) {
             if (esPrimo[i]) {
                 suma += i;
+                System.out.println(i);
             }
         }
         return suma;
